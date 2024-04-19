@@ -1,0 +1,5 @@
+<!-- app/views/appointment_mailer/reminder.html.erb -->
+<h1>Appointment Reminder</h1>
+<p>Hello <%= @user.name %>,</p>
+<p>This is a reminder that you have an appointment for <%= @appointment.service.name %> scheduled on <%= @appointment.date.strftime("%A, %B %e, %Y at %l:%M %p") %>.</p>
+<p>Thank you for choosing our services!</p>
